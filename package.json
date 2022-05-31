@@ -1,0 +1,13 @@
+{
+  "homepage": "http://tsebi.github.io/Curs-SV2022-t5",
+  "dependencies": {
+    "socket.io": "^4.5.1"
+  },
+  "scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}

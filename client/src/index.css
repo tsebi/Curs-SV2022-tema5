@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(95, 122, 134);
+}
+
+.App {
+  padding: 10px;
+}
+
+.graph-from-answers {
+  border-radius: 12px;
+  border: 2px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.voted-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 1px;
+  align-items: center;
+}
+
+.highest-voted {
+  display: flex;
+  min-height: fit-content;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 250px;
+  width: 50px;
+  border: 2px solid black;
+}
+
+.fill-voted {
+  position: relative;
+  bottom: 0;
+  border: 2px solid black;
+  width: 46px;
+  transition: all 0.3s ease-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.voted-text {
+  position: relative;
+  text-align: center;
+  color: blue;
+  max-width: 200px;
+}
+
+.voted-count {
+  text-align: center;
+  color: rgb(64, 241, 241);
+}
